@@ -1,0 +1,138 @@
+.product {
+background-color: gold;
+width: 400px;
+height: 50px;
+}
+video {
+width: 900px;
+}
+img {
+width: 220px;
+border-radius: 150px;
+float: right;
+margin-right: 10px;
+}
+.username {
+font-weight: bold;
+}
+.texto {
+font-weight: bolder;
+}
+.container{
+    margin-top: 150px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.boxa {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0.5rem;
+    background-color: tomato;
+    box-shadow: 0px 0px 30px;
+    
+}
+.boxb {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0.5rem;
+    background-color: tomato;
+    box-shadow: 0px 0px 30px;
+}
+.boxc {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0.5rem;
+    background-color: tomato;
+    box-shadow: 0px 0px 30px;
+}
+.MENU{
+    border: 3px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+.button{
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+  }
+  .row .column1 {
+    padding-right: 50px;
+  }
+  .column1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .column1 p {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .column1 button {
+    width: 150px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  /* Header content responsive */
+  @media screen and (max-width: 980px) {
+    .column2 img {
+      width: 350px;
+    }
+    .column1 h1 {
+      font-size: 40px;
+    }
+    .column1 p{
+      font-size: 17px;
+    }
+    .row {
+      margin-top: 80px;
+    }
+  }
+   
+  @media screen and (max-width: 600px) {
+   
+    .column1 h1 {
+      font-size: 35px;
+    }
+    .row {
+      flex-direction: column;
+   
+    }
+    .row .column1 {
+      padding: 30px;
+    }
+  }
+  video{
+    width: 100%;
+    height: auto;
+  }
